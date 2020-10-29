@@ -1,0 +1,155 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+	display: flex;
+}
+
+a {
+	color: white;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 120px;
+	padding-left: 120px;
+	position: absolute;
+	width: 100vw;
+	font-family: open sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 0em;
+
+}
+
+.home,
+.menu {
+	display: flex;
+	justify-content: space-around;
+	width: 530px;
+	border-bottom: 1px solid rgba(255, 255, 255, .2);
+	height: 100px;
+	align-items: center;
+}
+
+.date {
+	color: white;
+	position: absolute;
+	top: 500px;
+	transform: rotate(-90deg);
+}
+
+.header__background {
+	position: absolute;
+	z-index: -1;
+	height: 100vh;
+	width: 100vw;
+}
+
+.wheel {
+	margin-top: 25px;
+	/* left: calc(50% - 75px); сместить в лево от центра на 75px  */
+	position: absolute;
+	top: 25px;
+}
+
+.header__inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+
+}
+
+.restaurant-name {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 200px;
+}
+
+.restaurant {
+	color: white;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 14px;
+	letter-spacing: 0.5em;
+	text-align: center;
+}
+
+.hungry-people {
+	color: white;
+	font-family: Banny;
+	font-size: 96px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.line {
+	width: 60px;
+	height: 5px;
+	background-color: #E8C300;
+	border-radius: 50px;
+	margin-bottom: 30px;
+}
+
+.buttons {
+	display: flex;
+	width: 440px;
+	justify-content: space-between;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 60px;
+	border: 1px solid #FFFFFF;
+	border-radius: 5px;
+	font-family: Open Sans;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #E8C300;
+}
+
+.skroll-down {
+	margin-top: 80px;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 220px;
+	color: white;
+	position: absolute;
+	top: 400px;
+	right: 80px;
+}
+
+.link {
+	transition-duration: .8s;
+}
+
+.link:hover {
+	transform: scale(1.3);
+}
